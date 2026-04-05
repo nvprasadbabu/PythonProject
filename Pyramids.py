@@ -40,5 +40,17 @@ def inverted_pyramid(n):
 
 inverted_pyramid(5)
 
+print("\n========== Inverted Pyramid Patterns with Alphabets ==========\n")
+def inverted_pyramid_alphabets(n):
+    alph = 65
+    for i in range(n, 0, -1):
+        print(" " * (n-i), end=" ")
+        for j in range(0, i):
+            print(chr(alph), end=" ")
+            alph += 1
+        alph = 65
+        print()
+
+inverted_pyramid_alphabets(10)
 
 
