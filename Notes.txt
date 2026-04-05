@@ -1,0 +1,4 @@
+https://pandas.pydata.org/
+https://numpy.org/
+https://matplotlib.org/
+https://seaborn.pydata.org/
